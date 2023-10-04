@@ -1,0 +1,46 @@
+{% extends 'home.html' %}
+
+{% block content %}
+
+    <br/> 
+    <!-- This is the flash display -->
+    <div class="container">
+        {% for message in get_flashed_messages() %}
+        <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ message }}
+        </div>
+        {% endfor %}
+        {% block page_content %}{% endblock %}
+    </div>
+
+    <div class="page-header">
+        <h1>Hello, {% if name %}{{ name }}!{% else %}Stranger{% endif %}</h1>
+        {% if mail %}
+            {% if "mail.utoronto" in mail %}
+                <h1>Your UofT email is {{mail}}</h1>
+                <br/>
+            {% else %}
+                <h1>Please use your UofT email</h1>
+                <br/>
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.name.label(class="form-label") }}
+        {{ form.name(class='form-control') }}
+   
+        <br/>
+        {{ form.mail.label(class="form-label") }}
+        {{ form.mail(class= 'form-control' ) }}
+
+        <br/>
+        {{ form.submit(class="btn btn-primary") }}
+
+    </form>
+  
+
+{% endblock %}
