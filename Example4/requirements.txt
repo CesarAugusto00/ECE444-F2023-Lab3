@@ -1,0 +1,33 @@
+#This file may be used to create an environment using"
+blinker
+click
+colorama
+dnspython
+dominate
+email-validator
+Flask
+Flask-Bootstrap
+Flask-Moment
+Flask-WTF
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+packaging
+visitor
+Werkzeug
+WTForms
+wtforms-html5
+
+
+
+
+# flask 
+# flask_bootstrap
+# flask_moment
+# flask_wtf
+# itsdangerous
+# jinja2
+# werkzeug
+# #in case there are some errors on windows use werkzeug==2.0.3
+# wtforms 
