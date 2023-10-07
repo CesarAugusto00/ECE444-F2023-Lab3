@@ -34,3 +34,17 @@ Change the code to display in the title: Hello <name> welcome to dockers
 
 ![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/4dcf88fd-cd31-4347-ae3d-fee4e12f4288)
 
+<br>
+
+# Activity 4
+
+<br>
+
+Using docker to run the website. See the screenshot below.
+
+<br>
+
+
+![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/b0140f96-0377-40fa-b8c4-258dcd91b7a2)
+
+
