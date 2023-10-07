@@ -40,11 +40,17 @@ Change the code to display in the title: Hello <name> welcome to dockers
 
 <br>
 
-Using docker to run the website. See the screenshot below.
+Using docker to run the website. See the screenshot below. Note the current name of the container running is laughing_pasteur
 
 <br>
 
 
-![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/b0140f96-0377-40fa-b8c4-258dcd91b7a2)
+![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/b9b70557-ac2b-419c-aa98-bb29131b2bce)
+
+<br>
+
+![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/3c53e26b-b76c-4897-aa50-39abdeb8d145)
+
+
 
 
