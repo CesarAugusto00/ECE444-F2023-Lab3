@@ -27,3 +27,10 @@ Installation of Docker on my computer. The screenshot below is about the version
 # Activity 3 
 
 <br>
+
+Change the code to display in the title: Hello <name> welcome to dockers 
+
+<br>
+
+![image](https://github.com/CesarAugusto00/ECE444-F2023-Lab3/assets/144982985/4dcf88fd-cd31-4347-ae3d-fee4e12f4288)
+
